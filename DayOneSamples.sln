@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadSamples", "ThreadSamples\ThreadSamples.csproj", "{203385AE-0BEA-47D0-A1E0-BEBB0A917E57}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BenchmarkSample", "BenchmarkSample\BenchmarkSample.csproj", "{117976D3-623A-48CC-AFB8-66425B5940F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncIsNotParallel", "AsyncIsNotParallel\AsyncIsNotParallel.csproj", "{906B9D08-5EDD-4755-9C59-4D327A2B334C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Observer\Observer.csproj", "{0278EEE4-E446-4C3D-8D90-063D55F207D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarioStatePattern", "MarioStatePattern\MarioStatePattern.csproj", "{21308664-EEAD-48BE-B96B-8F42528F7402}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInversionPrinciple", "DependencyInversionPrinciple\DependencyInversionPrinciple.csproj", "{440A65EC-EC49-4F23-BA2F-4DB6AD66A32C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{203385AE-0BEA-47D0-A1E0-BEBB0A917E57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{203385AE-0BEA-47D0-A1E0-BEBB0A917E57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{203385AE-0BEA-47D0-A1E0-BEBB0A917E57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{203385AE-0BEA-47D0-A1E0-BEBB0A917E57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{117976D3-623A-48CC-AFB8-66425B5940F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{117976D3-623A-48CC-AFB8-66425B5940F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{117976D3-623A-48CC-AFB8-66425B5940F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{117976D3-623A-48CC-AFB8-66425B5940F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{906B9D08-5EDD-4755-9C59-4D327A2B334C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{906B9D08-5EDD-4755-9C59-4D327A2B334C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{906B9D08-5EDD-4755-9C59-4D327A2B334C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{906B9D08-5EDD-4755-9C59-4D327A2B334C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0278EEE4-E446-4C3D-8D90-063D55F207D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0278EEE4-E446-4C3D-8D90-063D55F207D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0278EEE4-E446-4C3D-8D90-063D55F207D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0278EEE4-E446-4C3D-8D90-063D55F207D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21308664-EEAD-48BE-B96B-8F42528F7402}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21308664-EEAD-48BE-B96B-8F42528F7402}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21308664-EEAD-48BE-B96B-8F42528F7402}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21308664-EEAD-48BE-B96B-8F42528F7402}.Release|Any CPU.Build.0 = Release|Any CPU
+		{440A65EC-EC49-4F23-BA2F-4DB6AD66A32C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{440A65EC-EC49-4F23-BA2F-4DB6AD66A32C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{440A65EC-EC49-4F23-BA2F-4DB6AD66A32C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{440A65EC-EC49-4F23-BA2F-4DB6AD66A32C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1F7F66A3-F62C-4B1E-B544-399428AAB78C}
+	EndGlobalSection
+EndGlobal
