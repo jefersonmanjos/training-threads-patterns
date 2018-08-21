@@ -9,9 +9,9 @@ namespace ThreadSamples
 		private static readonly object locker = new object();
 		public static void Run()
 		{
+
 			ThreadTestSafe tt = new ThreadTestSafe();
 			new Thread(() => tt.Go("coyote")).Start();
-
 			tt.Go("papa léguas");
 		}
 		private void Go(string from)

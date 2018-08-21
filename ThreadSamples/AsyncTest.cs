@@ -9,6 +9,7 @@ namespace ThreadSamples
 	{
 		public static async void Run()
 		{
+
 			var result = await AccessTheWebAsync();
 			Console.WriteLine($"Length is {result}");
 		}

@@ -16,7 +16,11 @@ namespace ThreadSamples
 		}
 		private void Go(string from)
 		{
-			if (!done) { done = true; Console.WriteLine($"Done from {from}"); }
+			if (!done)
+			{
+				Console.WriteLine($"Done from {from}");
+				done = true;
+			}
 		}
 	}
 }

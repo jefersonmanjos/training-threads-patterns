@@ -21,7 +21,7 @@ namespace ThreadSamples
 
 			var random = new Random();
 			string[] wordList = wordLookup.ToArray();
-			string[] wordsToTest = Enumerable.Range(0, 1000000)
+			string[] wordsToTest = Enumerable.Range(0, 100000000)
 			.Select(i => wordList[random.Next(0, wordList.Length)])
 			.ToArray();
 			wordsToTest[12345] = "woozsh"; // Introduce a couple
@@ -30,10 +30,11 @@ namespace ThreadSamples
 			Stopwatch stopwatch = new Stopwatch();
 			stopwatch.Start();
 			var query = wordsToTest
-						.AsParallel()
+							.AsParallel()
 						.Select((word, index) => new IndexedWord { Word = word, Index = index })
 						.Where(iword => !wordLookup.Contains(iword.Word))
-						.OrderBy(iword => iword.Index);
+						.OrderBy(iword => iword.Index).ToList();
+
 			stopwatch.Stop();
 			Console.WriteLine($"Run time is {stopwatch.Elapsed.TotalMilliseconds}");
 			foreach (var mistake in query)

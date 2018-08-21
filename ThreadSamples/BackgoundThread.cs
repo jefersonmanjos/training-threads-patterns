@@ -16,7 +16,7 @@ namespace ThreadSamples
 					Console.WriteLine(++i);
 				}
 			});
-			worker.IsBackground = false;
+			worker.IsBackground = true;
 			worker.Start();
 		}
 	}

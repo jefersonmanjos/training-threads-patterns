@@ -46,7 +46,7 @@ namespace AsyncIsNotParallel
 				// await Task.Delay(0);      // continues synchronously
 				// await Task.Delay(100);     // continues asynchronously on UI thread
 				// await Task.Delay(0).ConfigureAwait(false);    // continues synchronously
-				// await Task.Delay(100).ConfigureAwait(false);   // continues asynchronously on any thread
+				await Task.Delay(100).ConfigureAwait(false);   // continues asynchronously on any thread
 
 				var startTime = sw.ElapsedMilliseconds;
 
